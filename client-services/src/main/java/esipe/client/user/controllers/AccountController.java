@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 
 /**
- * @author BOURGEOIS Thibault
- * Date     06/11/2017
- * Time     23:38
+ * Account controller class
  */
 @RestController
 @RequestMapping(path = "/accounts")

@@ -8,9 +8,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @author BOURGEOIS Thibault
- * Date     07/11/2017
- * Time     14:04
+ * History controller class
  */
 @RestController
 @RequestMapping(path = "/history")

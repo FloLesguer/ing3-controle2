@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 
 /**
- * @author BOURGEOIS Thibault
- * Date     06/11/2017
- * Time     23:37
+ * User controller class
  */
 @RestController
 @RequestMapping(path = "/user")
