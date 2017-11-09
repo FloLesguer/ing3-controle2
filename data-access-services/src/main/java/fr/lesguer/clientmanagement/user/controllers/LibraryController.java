@@ -14,17 +14,15 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author Gokan EKINCI
- */
+
 @RestController
-@RequestMapping(path = "/users")
-public class UserController {
+@RequestMapping(path = "/library")
+public class LibraryController {
 
 	private final UserService userService;
 
 	@Autowired
-	public UserController(UserService userService) {
+	public LibraryController(UserService userService) {
 		this.userService = userService;
 	}
 

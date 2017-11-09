@@ -1,6 +1,5 @@
 package esipe.client.user.controllers;
 
-import esipe.models.AccountTransaction;
 import esipe.restutils.RestManagement;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

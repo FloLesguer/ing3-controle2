@@ -6,9 +6,7 @@ import lombok.ToString;
 
 import javax.validation.constraints.Pattern;
 
-/**
- * @author Gokan EKINCI
- */
+
 @Data
 @Builder
 @ToString
