@@ -11,7 +11,7 @@ import java.sql.Date;
 @Data
 @ToString
 public class BookDto {
-    private Long id;
+    private int bookId;
     private String title;
     private enum category {action, science_fiction, biographie}
     private boolean newOrUsed;
